@@ -121,7 +121,6 @@ public class homeActivity extends AppCompatActivity {
                                                 BoardUtils.NUM_BOMBS = 10;
                                                 BoardUtils.GAME_MODE = 1;
                                                 BoardUtils.DIFFICULTY = 1;
-                                                BoardUtils.printtheshit();
                                                 break;
                                             case "2":
                                                 BoardUtils.BOARD_TILES_PER_ROW = 12;
@@ -129,7 +128,6 @@ public class homeActivity extends AppCompatActivity {
                                                 BoardUtils.NUM_BOMBS = 20;
                                                 BoardUtils.GAME_MODE = 2;
                                                 BoardUtils.DIFFICULTY = 2;
-                                                BoardUtils.printtheshit();
                                                 break;
                                             case "3":
                                                 BoardUtils.BOARD_TILES_PER_ROW = 15;
@@ -137,7 +135,6 @@ public class homeActivity extends AppCompatActivity {
                                                 BoardUtils.NUM_BOMBS = 30;
                                                 BoardUtils.GAME_MODE = 3;
                                                 BoardUtils.DIFFICULTY = 3;
-                                                BoardUtils.printtheshit();
                                                 break;
                                             case "4":
                                                 BoardUtils.BOARD_TILES_PER_ROW = 15;
@@ -145,7 +142,6 @@ public class homeActivity extends AppCompatActivity {
                                                 BoardUtils.NUM_BOMBS = 50;
                                                 BoardUtils.GAME_MODE = 4;
                                                 BoardUtils.DIFFICULTY = 4;
-                                                BoardUtils.printtheshit();
                                                 break;
                                             case "5":
                                                 BoardUtils.BOARD_TILES_PER_ROW = 15;
@@ -153,7 +149,6 @@ public class homeActivity extends AppCompatActivity {
                                                 BoardUtils.NUM_BOMBS = 80;
                                                 BoardUtils.GAME_MODE = 5;
                                                 BoardUtils.DIFFICULTY = 5;
-                                                BoardUtils.printtheshit();
                                                 break;
                                         }
                                     }
