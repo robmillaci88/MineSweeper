@@ -8,9 +8,13 @@ The game is played by revealing squares of the grid by clicking or otherwise ind
 The player uses this information to deduce the contents of other squares, and may either safely reveal each square or mark the square as containing a mine.
 
 HOW TO PLAY
+
 SINGLE CLICK a cell to reveal the cell.
+
 LONG CLICK a cell to mark the cell as a potential mine.
+
 LONG CLICK a marked cell to clear the flag.
+
 Once all non mine cells are revealed, the player wins and the game is over.
 
 Game behaviour in relation to vibration and sound feedback can be changed in settings.
