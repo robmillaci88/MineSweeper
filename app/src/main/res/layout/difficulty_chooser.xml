@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/veryeasyradio"
+        app:layout_constraintStart_toEndOf="@+id/veryeasyradio"
+        app:layout_constraintTop_toTopOf="@+id/veryeasyradio"
+        app:layout_constraintVertical_bias="0.110000014"
+        app:srcCompat="@drawable/mineicon_nobackground" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/easyradio"
+        app:layout_constraintStart_toEndOf="@+id/easyradio"
+        app:layout_constraintTop_toTopOf="@+id/easyradio"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/mineicon_nobackground" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/normalradio"
+        app:layout_constraintStart_toEndOf="@+id/normalradio"
+        app:layout_constraintTop_toTopOf="@+id/normalradio"
+        app:layout_constraintVertical_bias="0.41000003"
+        app:srcCompat="@drawable/mineicon_nobackground" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hardradio"
+        app:layout_constraintStart_toEndOf="@+id/hardradio"
+        app:layout_constraintTop_toTopOf="@+id/hardradio"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/mineicon_nobackground" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/newgame" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/veryhard"
+        app:srcCompat="@android:color/holo_blue_dark" />
+
+    <RadioButton
+        android:id="@+id/easyradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@android:color/black"
+        android:tag="2"
+        android:text="Easy - 12 x 12 grid 20"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/veryeasyradio" />
+
+    <RadioButton
+        android:id="@+id/veryeasyradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:buttonTint="@android:color/black"
+        android:tag="1"
+        android:text="Very easy - 10 x 10 grid 10"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <RadioButton
+        android:id="@+id/hardradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@android:color/black"
+        android:tag="4"
+        android:text="Hard - 12 x 25 grid 50"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/normalradio" />
+
+    <RadioButton
+        android:id="@+id/veryhard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@android:color/black"
+        android:tag="5"
+        android:text="Very hard - 12 x 27 grid 75"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hardradio" />
+
+    <RadioButton
+        android:id="@+id/normalradio"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@android:color/black"
+        android:tag="3"
+        android:text="Normal - 12 x 15 grid 30"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easyradio" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/veryhard"
+        app:layout_constraintStart_toEndOf="@+id/veryhard"
+        app:layout_constraintTop_toTopOf="@+id/veryhard"
+        app:layout_constraintVertical_bias="0.26999998"
+        app:srcCompat="@drawable/mineicon_nobackground" />
+
+</android.support.constraint.ConstraintLayout>

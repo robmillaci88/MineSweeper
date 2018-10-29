@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MineSweeper</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_home">homeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="default_timer_text">0:00</string>
+    <string name="play_again">Play again</string>
+
+    <string name="title_activity_statistics">StatisticsActivity</string>
+    <string name="total_games_played_text">TOTAL GAMES PLAYED : %1$s</string>
+    <string name="total_games_won">TOTAL GAMES WON : %1s</string>
+    <string name="total_time_played">TOTAL TIME PLAYED : %1s</string>
+    <string name="settings_reaction_game_over">Reaction on Game over</string>
+    <string name="reaction_placing_flag">Reaction on placing flag</string>
+    <string name="settings_vibration_and_sound"><![CDATA[Vibration & sound]]></string>
+    <string name="reaction_vibrate">Vibrate</string>
+    <string name="settings_no_reaction">No reaction</string>
+    <string name="settings_sound_only">Sound only</string>
+    <string name="setting_vibration_only">Vibration only</string>
+    <string name="settings_reaction_on_win">Reaction on win</string>
+    <string name="settings_reaction_on_click">Reaction on click</string>
+</resources>
