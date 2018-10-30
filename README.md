@@ -2,7 +2,14 @@
 
 ![](minesweepergif.gif)
 
-![](msScreenshot1.jpg)![](msScreenshot2.jpg)![](msScreenshot3.jpg)
+![](ms0.jpg)
+![](ms1.jpg)
+![](ms2.jpg)
+![](ms3.jpg)
+![](ms4.jpg)
+![](ms5.jpg)
+![](ms6.jpg)
+![](ms7.jpg)
 
 
 Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them,with help from clues about the number of neighboring mines in each field.
