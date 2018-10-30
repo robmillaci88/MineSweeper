@@ -1,4 +1,8 @@
 # MineSweeper
+
+![](minesweepergif.gif)
+
+
 Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them,with help from clues about the number of neighboring mines in each field.
 
 The player is initially presented with a grid of undifferentiated squares. Some randomly selected squares, unknown to the player, are designated to contain mines. Typically, the size of the grid and the number of mines are set in advance by the user, either by entering the numbers or selecting from defined skill levels, depending on the implementations.
