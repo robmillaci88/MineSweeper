@@ -1,7 +1,6 @@
 # MineSweeper
 
 ![](minesweepergif.gif)
-
 ![](ms0.jpg)
 ![](ms1.jpg)
 ![](ms2.jpg)
